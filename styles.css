@@ -1,0 +1,365 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-position: 0%;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #bfa288;
+}
+
+a {
+  color: #bf7069;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#grid-wrapper {
+  /* grid en el index */
+  display: grid;
+  background-color: #fff;
+  grid-template-rows: none;
+  grid-template-columns: none;
+  grid-area: 4px;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 0;
+}
+
+#grid-wrapper .nav-main {
+  grid-column-start: auto;
+  grid-column-end: auto;
+  grid-row-start: auto;
+  grid-row-end: auto;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.nav-main {
+  /* navegación */
+  font-size: 15px;
+  height: 60px;
+  display: flex; /* flexbox*/
+  flex-direction: row;
+  flex-wrap: link;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li a:hover {
+  border-bottom: 2px solid #bf7069;
+}
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px; /* acá termina */
+}
+
+.menu {
+  /* promoción */
+  text-align: center;
+  font-size: 15px;
+  height: 10px;
+  padding: 10px 0; /* acá termina */
+}
+
+#textnosotrosId {
+  /* información de la empresa */
+  background-color: (left, orange, black);
+}
+#textnosotrosId {
+  /* información de la empresa */
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: 17px;
+  margin-left: 11px;
+  color: #8c5e35;
+  background: rgb(217, 152, 115);
+  background: linear-gradient(
+    0deg,
+    rgba(217, 152, 115, 1) 58%,
+    rgba(191, 162, 136, 1) 84%
+  );
+} /* acá termina */
+
+#textonosotrosId {
+  display: flex; /* flexbox*/
+  flex-direction: newrap;
+  flex-wrap: link;
+  align-content: center;
+} /* acá termina */
+
+.continuar-comprando {
+  /* botón */
+  width: 15%;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 5px;
+  color: #8c5e35;
+  background-color: #bfa288;
+  padding: 7px 0px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: #bfa288;
+}
+.continuar-comprando:hover {
+  background-color: #bf7069;
+} /* acá termina */
+
+#producto {
+  /* producto que se ha agregado al carro de compras */
+  text-align: center;
+  font-size: 19px;
+  float: left;
+} /* acá termina */
+
+.lineas {
+  color: rgb(255, 0, 0)173, 202, 202);
+}
+.pagos {
+  /* formas de pago */
+  width: 15%;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 9px;
+  color: #8c5e35;
+  background-color: #bfa288;
+  padding: 7px 0px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: #bfa288;
+}
+.pagos:hover {
+  background-color: #bf7069;
+}
+
+.métodos-de-pago {
+  width: 40%; /* acá termina */
+}
+
+.form-register {
+  /* registro de cuenta */
+  width: 400px;
+  background: #ffffff;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 7px;
+  color: #bfa288;
+  display: flex; /* flexbox*/
+  justify-content: right;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  columns: unset;
+}
+
+.form-register h1 {
+  font-size: 22px;
+}
+
+.controls {
+  width: 50%;
+  background: #bfa288;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #000000;
+  font-size: 16px;
+  color: #000000;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: #bf7069;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #000000;
+  border: none;
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  margin: 16px 0;
+  font-size: 16px; /* acá termina */
+}
+.botons {
+  width: 20%;
+  text-align: center;
+  padding: 4px;
+  background-color: #bfa288;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: #bfa288;
+}
+.botons:hover {
+  background-color: #bf7069;
+}
+
+.sección-mujer {
+  /* estado: en construcción */
+  text-align: center;
+  font-size: 15px;
+  height: 10px;
+  padding: 10px 0;
+  display: flex; /* flexbox*/
+  flex-wrap: link;
+  justify-content: right;
+  align-content: center;
+  flex-direction: row;
+  columns: unset;
+  align-content: center;
+}
+.item {
+  background-color: #fff;
+  width: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  position: center;
+  max-width: 50%;
+  display: flex; /* flexbox*/
+  justify-content: right;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  columns: unset;
+}
+.item::after {
+  background-color: rgba(179, 229, 252, 0.1);
+  width: 10%;
+  height: 10%;
+  position: center;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.item:hover:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item-text {
+  padding: 10px;
+}
+
+.item-img {
+  max-width: 100%;
+  display: block;
+}
+
+@media screen and (min-width: 590px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 960px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.container__footer {
+  /* pie de página */
+  display: flex;
+  flex-wrap: link;
+  justify-content: space-around;
+  flex-direction: newrap;
+  align-content: center;
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-size: cover;
+}
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.box__footer .terms {
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+
+.box__footer h2 {
+  margin-bottom: 30px;
+  color: #343434;
+  font-weight: 700;
+}
+
+.box__footer a {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+
+.box__footer a:hover {
+  opacity: 0.8;
+  text-shadow: 0 5px 2px rgba(0, 0, 0, 0.2), 0 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+.box__footer a .fab {
+  font-size: 20px;
+}
+
+.box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box__copyright p {
+  margin-top: 20px;
+  color: #7a7a7a;
+}
+
+.box__copyright hr {
+  border: none;
+  height: 1px;
+} /* acá termina el pie de página */
